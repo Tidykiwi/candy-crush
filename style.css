@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid {
+    height: 560px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: pink;
+    border: solid 2px black;
+}
+
+.grid div {
+    height: 70px;
+    width: 70px;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 50%;
+    background-color: pink;
+    padding: 1rem 1rem 1rem 1rem; 
+    border: solid 2px black;
+    margin: 0 2rem 0 0;
+}
